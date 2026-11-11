@@ -46,8 +46,8 @@ function App() {
       <div className="hero-top">
         <div>
           <div className="wordmark">A FIELD GUIDE TO COMPOSITION</div>
-          <h1 id="brand-title">Velouria</h1>
-          <div className="pronunciation">Ve·lou·ri·a /vəˈlʊər.i.ə/ · noun</div>
+          <h1 id="brand-title">Vlouric</h1>
+          <div className="pronunciation">Vlouric /vəˈlʊər.ɪk/ · noun</div>
         </div>
         <div className="hero-credit">
           <div className="dict-label hero-credit-label">
@@ -59,30 +59,30 @@ function App() {
       </div>
       <p className="hero-definition">A genre of romantic, cinematic ambient and chamber-inspired electronic music characterized by tender melodic fragments, suspended harmonic movement, and textures softened by distance, memory, or environmental space, often evoking a feeling described as "<a href="https://larslentz.github.io/beautiful_unease/" target="_blank" rel="noopener noreferrer">beautiful unease</a>."</p>
       <div className="dictionary-meta">
-        <div><div className="dict-label">ETYMOLOGY</div><p>Coined from <em>velour</em> (a plush, soft-woven fabric) and <em>aetheria / -ia</em> (suggesting an atmospheric or dreamlike realm).</p></div>
-        <div><div className="dict-label">RELATED FORMS</div><p><b>Velouric</b> (adj.): Exhibiting subtle qualities, traces, or underlying textures characteristic of Velouria.</p><p><b>Velourian</b> (adj./n.): Directly embodying the aesthetic and compositional principles of Velouria.</p></div>
+        <div><div className="dict-label">ETYMOLOGY</div><p>The name echoes <em>velour</em>, a plush, soft-woven fabric, suggesting a soft and atmospheric sonic world.</p></div>
+        <div><div className="dict-label">RELATED FORMS</div><p><b>Vlouric</b> (adj.): Exhibiting subtle qualities, traces, or underlying textures characteristic of Vlouric.</p><p><b>Vlourian</b> (adj./n.): Directly embodying the aesthetic and compositional principles of Vlouric.</p></div>
       </div>
     </section>
 
     <div className="definition-wrap">
       <button className="definition-toggle" type="button" onClick={() => setDefinitionOpen(open => !open)} aria-expanded={definitionOpen} aria-controls="definition-panel" data-testid="button-toggle-definition">
-        {definitionOpen ? 'Close the full Velouria definition' : 'Read the full Velouria definition'}
+        {definitionOpen ? 'Close the full Vlouric definition' : 'Read the full Vlouric definition'}
       </button>
       {definitionOpen && <article id="definition-panel" className="definition-panel" style={{ backgroundImage: `linear-gradient(90deg,rgba(12,16,20,.94),rgba(12,16,20,.74)),url("${definitionImage}")` }} data-testid="panel-full-definition">
-        <h2>Velouria</h2><p><strong><em>Ve·lou·ri·a</em> /vəˈlʊər.i.ə/ · noun</strong></p>
+        <h2>Vlouric</h2><p><strong><em>Vlouric</em> /vəˈlʊər.ɪk/ · noun</strong></p>
         <h3>Definition</h3><p>A genre of romantic, cinematic ambient and chamber-inspired electronic music characterized by tender melodic fragments, suspended harmonic movement, and textures softened by distance, memory, or environmental space, often evoking a feeling described as "<a href="https://larslentz.github.io/beautiful_unease/" target="_blank" rel="noopener noreferrer">beautiful unease</a>."</p>
-        <h3>Etymology</h3><p>Coined from <em>velour</em> (a plush, soft-woven fabric) and <em>aetheria / -ia</em> (suggesting an atmospheric or dreamlike realm).</p>
+        <h3>Etymology</h3><p>The name echoes <em>velour</em>, a plush, soft-woven fabric, suggesting a soft and atmospheric sonic world.</p>
         <h3>Inflections &amp; Related Forms</h3>
-        <ul><li><strong>Velouric</strong> /vəˈlʊər.ɪk/ <em>adjective</em>: Exhibiting subtle qualities, traces, or underlying textures characteristic of Velouria (e.g., <em>a Velouric undertone in a downtempo track</em>).</li>
-          <li><strong>Velourian</strong> /vəˈlʊər.i.ən/ <em>adjective &amp; noun</em>:<ol><li><em>adj.</em> Directly embodying the principles, instrumentation, and aesthetic of Velouria (e.g., <em>a Velourian piano arrangement</em>).</li><li><em>n.</em> A composer, producer, or listener dedicated to the genre.</li></ol></li></ul>
+        <ul><li><strong>Vlouric</strong> /vəˈlʊər.ɪk/ <em>adjective</em>: Exhibiting subtle qualities, traces, or underlying textures characteristic of Vlouric (e.g., <em>a Vlouric undertone in a downtempo track</em>).</li>
+          <li><strong>Vlourian</strong> /vəˈlʊər.i.ən/ <em>adjective &amp; noun</em>:<ol><li><em>adj.</em> Directly embodying the principles, instrumentation, and aesthetic of Vlouric (e.g., <em>a Vlourian piano arrangement</em>).</li><li><em>n.</em> A composer, producer, or listener dedicated to the genre.</li></ol></li></ul>
         <h3>Core Characteristics</h3>
-        <p>Velouria is defined by four characteristics. <em>Beautiful Unease</em> describes one way to bring several of them together in a composition.</p>
+        <p>Vlouric is defined by four characteristics. <em>Beautiful Unease</em> describes one way to bring several of them together in a composition.</p>
         <ul><li><strong>Harmonic Suspension:</strong> Progressions and dyadic intervals (such as repeating fourth-to-third sighs) that hover, question, or console without resolving into conventional pop or classical cadences. Explore this in <em>Foundation</em>.</li>
           <li><strong>The Sincere Fragment:</strong> Short, evocative melodic motifs—often descending step-wise—that convey warmth or yearning rather than virtuosic complexity. Build one in <em>Sincere Fragment</em>, then reshape it in <em>Transformations</em>.</li>
-          <li><strong>Beautiful Unease (bringing the ideas together):</strong> A compositional approach that combines harmonic suspension, a sincere melodic fragment, and variations through transformation. The hovering harmony forms a foundation, the fragment carries a simple, expressive melody, and later variations reshape that melody while keeping it connected to its original idea. This is the composition built from the characteristics, not a fifth characteristic of Velouria.</li>
+          <li><strong>Beautiful Unease (bringing the ideas together):</strong> A compositional approach that combines harmonic suspension, a sincere melodic fragment, and variations through transformation. The hovering harmony forms a foundation, the fragment carries a simple, expressive melody, and later variations reshape that melody while keeping it connected to its original idea. This is the composition built from the characteristics, not a fifth characteristic of Vlouric.</li>
           <li><strong>Mediated Distance:</strong> The use of degraded tape loops, granular residue, soft filtering, and room tone to give foreground instruments (such as felt piano or vintage polysynths) the impression of a half-remembered transmission. Explore this in <em>Sound Design</em>.</li>
           <li><strong>Environmental Setting:</strong> Subtle integration of field recordings, sub-bass drones, and quiet room acoustics that establish an ambiguous physical space beneath the music. Explore this in <em>Layers</em>.</li></ul>
-        <h3>Example in Context</h3><blockquote>“By pairing a soft Kawai piano motif with a distant, degraded synth swell and quiet window rain, the piece firmly establishes itself within <strong>Velouria</strong>.”</blockquote>
+        <h3>Example in Context</h3><blockquote>“By pairing a soft Kawai piano motif with a distant, degraded synth swell and quiet window rain, the piece firmly establishes itself within <strong>Vlouric</strong>.”</blockquote>
       </article>}
     </div>
 
@@ -96,7 +96,7 @@ function App() {
       </div>
       <p className="beginner-intro" id="key-help">The key sets which note the music treats as “home.” That home note is the <strong>tonal center</strong>. Changing this moves every example higher or lower while keeping its pattern. You can leave it on A♭ to start. The numbered modules are a suggested learning order; you do not need to read sheet music.</p>
       <aside className="note" aria-label="Companion app: Beautiful Unease" data-testid="beautiful-unease-reference">
-        <strong>Companion app: <a href="https://larslentz.github.io/beautiful_unease/" target="_blank" rel="noopener noreferrer">Beautiful Unease</a>.</strong> It creates melodies and harmonies that you can use as starting material for Velouria-type music. A melody is a sequence of notes; harmony is the supporting notes played together. Try using a short passage from a Beautiful Unease melody as your Sincere Fragment, or its harmonies as an alternative to Foundation’s example chords. Keep the melody and backing in the same key, leave space between phrases, then explore Transformations, Sound Design, and Layers to shape the piece.
+        <strong>Companion app: <a href="https://larslentz.github.io/beautiful_unease/" target="_blank" rel="noopener noreferrer">Beautiful Unease</a>.</strong> It creates melodies and harmonies that you can use as starting material for Vlouric music. A melody is a sequence of notes; harmony is the supporting notes played together. Try using a short passage from a Beautiful Unease melody as your Sincere Fragment, or its harmonies as an alternative to Foundation’s example chords. Keep the melody and backing in the same key, leave space between phrases, then explore Transformations, Sound Design, and Layers to shape the piece.
       </aside>
       <p className="beginner-intro" data-testid="characteristic-learning-map"><strong>How the four characteristics appear in this guide:</strong> Foundation explores Harmonic Suspension; Sincere Fragment and Transformations develop the melody; Sound Design explores Mediated Distance; and Layers explores Environmental Setting.</p>
       <div className="module-navigation">
@@ -238,7 +238,7 @@ function App() {
             <p className="sound-reference-intro">A lead is the main tune your ear follows; a pad is a soft, sustained supporting sound. Use these as starting points, not rules.</p>
             <div className="sound-reference-table-wrap">
               <table className="sound-reference-table" role="table" aria-describedby="sound-reference-note">
-                <caption className="sr-only">Sound choices for a Velouria composition: suggested starting points, alternatives, and sounds that may distract.</caption>
+                <caption className="sr-only">Sound choices for a Vlouric composition: suggested starting points, alternatives, and sounds that may distract.</caption>
                 <thead role="rowgroup">
                   <tr role="row">
                     <th scope="col" role="columnheader">Aspect</th>
@@ -296,7 +296,7 @@ function App() {
           <section className="environment-setting-section" aria-labelledby="environment-setting-title" data-testid="environment-setting-space">
             <section className="learning-note environment-setting-item" aria-labelledby="environment-setting-title" data-testid="environment-setting-item">
               <h3 id="environment-setting-title">Environmental setting & space</h3>
-              <p>Some background layers can suggest a place or a memory. Field recordings—such as rain, wind, distant traffic, or a quiet room—are common in most Velouria compositions and can sit beneath the musical layers without becoming another lead part.</p>
+              <p>Some background layers can suggest a place or a memory. Field recordings—such as rain, wind, distant traffic, or a quiet room—are common in most Vlouric compositions and can sit beneath the musical layers without becoming another lead part.</p>
             </section>
             <section className="learning-note field-recording-guide" aria-labelledby="field-recordings-title" data-testid="environment-field-recordings">
               <h3 id="field-recordings-title">Field recordings: a quiet sense of place</h3>
@@ -321,11 +321,11 @@ function App() {
           <Heading number="06" title="Music to Study">Use this playlist as a listening companion while exploring the guide. Notice one quality at a time: suspended harmony, a memorable melodic fragment, space between phrases, or textures sitting behind the main musical idea. You do not need to identify every note; listen for the feeling and how the layers work together.</Heading>
           <article className="surface music-study-card" data-testid="music-study-playlist">
             <div className="kicker">Curated listening</div>
-            <h3>Velouria on Spotify</h3>
+            <h3>Vlouric on Spotify</h3>
             <p>The playlist is a reference for exploration, not a required sequence or set of rules. Choose a track, listen for one detail, then return to the guide and try your own version.</p>
             <iframe
               data-testid="embed-iframe"
-              title="Velouria playlist on Spotify"
+              title="Listening playlist on Spotify"
               style={{ borderRadius: '12px', display: 'block' }}
               src="https://open.spotify.com/embed/playlist/5xjEx6AgGrcJPSMzZmnx5B?utm_source=generator&amp;theme=0"
               width="100%"
@@ -336,12 +336,12 @@ function App() {
               referrerPolicy="strict-origin-when-cross-origin"
               loading="eager"
             />
-            <p className="music-study-link"><a href="https://open.spotify.com/playlist/5xjEx6AgGrcJPSMzZmnx5B?si=jcDzYDDxTeupxhXb7HAacQ" target="_blank" rel="noopener noreferrer">Open the Velouria playlist in Spotify</a> if you prefer listening there.</p>
+            <p className="music-study-link"><a href="https://open.spotify.com/playlist/5xjEx6AgGrcJPSMzZmnx5B?si=jcDzYDDxTeupxhXb7HAacQ" target="_blank" rel="noopener noreferrer">Open the listening playlist in Spotify</a> if you prefer listening there.</p>
             <div className="music-study-youtube">
-              <h3>Velouria on YouTube</h3>
-              <p>Explore the Velouria playlist on YouTube as another listening companion.</p>
+              <h3>Vlouric on YouTube</h3>
+              <p>Explore the listening playlist on YouTube as another listening companion.</p>
               <iframe
-                title="Velouria playlist on YouTube"
+                title="Listening playlist on YouTube"
                 style={{ borderRadius: '12px', display: 'block', width: '100%', aspectRatio: '16 / 9' }}
                 src="https://www.youtube.com/embed/videoseries?si=wOSCczuWkxSmreGK&amp;list=PLEv8rUxoqBOU"
                 height="315"
@@ -351,7 +351,7 @@ function App() {
                 allowFullScreen
                 loading="lazy"
               />
-              <p className="music-study-link"><a href="https://youtube.com/playlist?list=PLEv8rUxoqBOU&amp;si=nNRT2AAPx3vDZHCN" target="_blank" rel="noopener noreferrer">Open the Velouria playlist on YouTube</a> if you prefer listening there.</p>
+              <p className="music-study-link"><a href="https://youtube.com/playlist?list=PLEv8rUxoqBOU&amp;si=nNRT2AAPx3vDZHCN" target="_blank" rel="noopener noreferrer">Open the listening playlist on YouTube</a> if you prefer listening there.</p>
             </div>
           </article>
           <ListeningChecklist />

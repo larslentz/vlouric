@@ -32,7 +32,7 @@ export function buildMidi(tracks: MidiTrack[], bars: number, bpm: number): Uint8
   variableLength(end);
   const tempo = Math.round(60_000_000 / bpm);
   const conductor = chunk('MTrk', [
-    0, ...meta(0x03, [...encoder.encode('Velouria · tempo and meter')]),
+    0, ...meta(0x03, [...encoder.encode('Vlouric · tempo and meter')]),
     0, ...meta(0x51, [(tempo >>> 16) & 255, (tempo >>> 8) & 255, tempo & 255]),
     0, ...meta(0x58, [4, 2, 24, 8]), // 4/4, quarter-note beat
     ...variableLength(end), ...meta(0x2f, []),
@@ -73,5 +73,5 @@ export function buildMidi(tracks: MidiTrack[], bars: number, bpm: number): Uint8
 export function midiFilename(title: string, bpm: number) {
   const name = title.replaceAll('♭', 'b').replaceAll('♯', 'sharp')
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  return `velouria-${name || 'piano-roll'}-${bpm}bpm.mid`;
+  return `vlouric-${name || 'piano-roll'}-${bpm}bpm.mid`;
 }

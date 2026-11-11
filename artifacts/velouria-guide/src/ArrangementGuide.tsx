@@ -35,6 +35,6 @@ export function ArrangementGuide({ tonalKey }: { tonalKey: string }) {
     </div>
     <h4>What happens after bar 8?</h4>
     <p><strong>To continue:</strong> return to section bar 1 and repeat the entire eight-bar accompaniment and melody together, including the melody’s rests. Change or add one element on a later pass rather than adding every variation at once.</p>
-    <p><strong>To finish:</strong> do not restart the loop. Release the final notes at the end of bar 8 and let their sound and any reverb fade. The eight-bar introduction is a suggested starting arrangement, not a rule for every Velouria piece.</p>
+    <p><strong>To finish:</strong> do not restart the loop. Release the final notes at the end of bar 8 and let their sound and any reverb fade. The eight-bar introduction is a suggested starting arrangement, not a rule for every Vlouric piece.</p>
   </section>;
 }

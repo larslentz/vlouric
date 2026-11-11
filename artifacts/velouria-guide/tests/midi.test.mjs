@@ -134,5 +134,5 @@ test('MIDI rejects invalid notes, tempos, lengths and track counts; filenames ar
   for (const invalid of [{ pitch: 128 }, { start: -1 }, { duration: 0 }, { duration: 9 }]) {
     assert.throws(() => buildMidi([{ ...part, events: [{ ...part.events[0], ...invalid }] }], 2, 60));
   }
-  assert.equal(midiFilename('Three-note melody · A♭ minor', 70), 'velouria-three-note-melody-ab-minor-70bpm.mid');
+  assert.equal(midiFilename('Three-note melody · A♭ minor', 70), 'vlouric-three-note-melody-ab-minor-70bpm.mid');
 });

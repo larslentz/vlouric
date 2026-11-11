@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Velouria: The Compositional Guide"
+title = "Vlouric: The Compositional Guide"
 description = "A browser-based composition guide with transposable harmony, notation, piano rolls, sound design, and environmental layering."
 version = "1.0.0"
 id = "artifacts/velouria-guide"

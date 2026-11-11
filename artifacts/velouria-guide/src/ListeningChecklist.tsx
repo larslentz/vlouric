@@ -43,10 +43,10 @@ const checklistSections = [
 ];
 
 const classifications = [
-  { min: 22, max: 28, title: 'Purely Velourian', description: 'Fully embodies the aesthetic: sincere beauty, suspended harmony, mediated distance, and beautiful unease.' },
-  { min: 15, max: 21, title: 'Strong Velouric Influence', description: 'Deeply aligned with the mood and textures, though it may use different instruments, lighter unease, or a subtle beat.' },
-  { min: 9, max: 14, title: 'Velouric Elements Present', description: 'Contains some traits, such as felt piano or room tone, but leans mainly toward another genre.' },
-  { min: 0, max: 8, title: 'Not Velouria', description: 'Conflicting elements dominate, such as heavy drum grooves, bright pop hooks, aggressive dissonance, or a very polished modern sound.' },
+  { min: 22, max: 28, title: 'Purely Vlouric', description: 'Fully embodies the aesthetic: sincere beauty, suspended harmony, mediated distance, and beautiful unease.' },
+  { min: 15, max: 21, title: 'Strong Vlouric Influence', description: 'Deeply aligned with the mood and textures, though it may use different instruments, lighter unease, or a subtle beat.' },
+  { min: 9, max: 14, title: 'Vlouric Elements Present', description: 'Contains some traits, such as felt piano or room tone, but leans mainly toward another genre.' },
+  { min: 0, max: 8, title: 'Not Vlouric', description: 'Conflicting elements dominate, such as heavy drum grooves, bright pop hooks, aggressive dissonance, or a very polished modern sound.' },
 ];
 
 const allCriteria = checklistSections.flatMap(section => section.criteria);
@@ -62,7 +62,7 @@ export function ListeningChecklist() {
   return (
     <section id="listening-checklist" className="surface listening-checklist" aria-labelledby="listening-checklist-title" data-testid="listening-checklist">
       <div className="kicker">A listener’s guide</div>
-      <h3 id="listening-checklist-title">The Velouria Listening Checklist</h3>
+      <h3 id="listening-checklist-title">The Vlouric Listening Checklist</h3>
       <p>Rate each quality based on how strongly it appears in the track. This is a listening guide, not a strict pass-or-fail test.</p>
 
       <div className="listening-score-key" aria-label="Scoring guide">
@@ -124,16 +124,16 @@ export function ListeningChecklist() {
 
       <section className="listening-gut-check" aria-labelledby="velouric-gut-check-title">
         <span className="kicker">A quick listening guide</span>
-        <h4 id="velouric-gut-check-title">The Velouric Gut Check</h4>
+        <h4 id="velouric-gut-check-title">The Vlouric Gut Check</h4>
         <p className="velouric-gut-question">“Does this track pair an intimate, sincere emotional warmth with a sense of distance, suspension, or quiet unease?”</p>
         <div className="velouric-duality">
-          <p><strong>Yes: Velouric identity.</strong> The track carries a Velouric quality, either fully embodied or present as an underlying influence.</p>
-          <p><strong>No: Non-Velouric.</strong> It may be purely functional or upbeat, emotionally sterile or clinical, or dominated by a conventional groove and resolution.</p>
+          <p><strong>Yes: Vlouric identity.</strong> The track carries a Vlouric quality, either fully embodied or present as an underlying influence.</p>
+          <p><strong>No: Non-Vlouric.</strong> It may be purely functional or upbeat, emotionally sterile or clinical, or dominated by a conventional groove and resolution.</p>
         </div>
 
         <section className="velouric-two-truths" aria-labelledby="two-truths-title">
           <h5 id="two-truths-title">The essential two-truths rule</h5>
-          <p>A track is Velouric when both of these qualities are present:</p>
+          <p>A track is Vlouric when both of these qualities are present:</p>
           <div className="velouric-truth-grid">
             <div><strong>Emotional truth</strong><p>It feels genuinely tender, vulnerable, or nostalgic—not emotionally detached or aggressive.</p></div>
             <div><strong>Textural / structural truth</strong><p>The sound feels softened by distance, time, or environment, while the musical phrases hover rather than resolve into tidy pop or classical endings.</p></div>
@@ -144,14 +144,14 @@ export function ListeningChecklist() {
           <h5 id="boundary-examples-title">Quick boundary examples</h5>
           <div className="sound-reference-table-wrap">
             <table className="sound-reference-table velouric-boundary-table">
-              <caption className="sr-only">Examples of Velouric, Velouric Influence, and Non-Velouric musical qualities</caption>
+              <caption className="sr-only">Examples of Vlouric, Vlouric Influence, and Non-Vlouric musical qualities</caption>
               <thead><tr><th scope="col">Track characteristic</th><th scope="col">Classification</th><th scope="col">Why</th></tr></thead>
               <tbody>
-                <tr><th scope="row">Intimate melody + suspended chords + weathered or room space</th><td data-label="Classification">Velouric</td><td data-label="Why">Embodies the core tension between warmth and distance.</td></tr>
-                <tr><th scope="row">Warm piano or strings, but with a driving pop beat or steady groove</th><td data-label="Classification">Velouric Influence</td><td data-label="Why">Retains harmonic or melodic warmth, but shifts into a rhythm-driven genre.</td></tr>
-                <tr><th scope="row">Dark drones, heavy industrial noise, or pure horror dissonance</th><td data-label="Classification">Non-Velouric</td><td data-label="Why">Lacks sincere emotional tenderness and the consoling quality of a sigh or warm landing.</td></tr>
-                <tr><th scope="row">Pristine, clean modern production with functional cadences</th><td data-label="Classification">Non-Velouric</td><td data-label="Why">Lacks mediated distance, harmonic suspension, and underlying unease.</td></tr>
-                <tr><th scope="row">Upbeat, bright, or energetically paced music</th><td data-label="Classification">Non-Velouric</td><td data-label="Why">Contrasts with Velouria’s slow, unhurried, reflective pacing.</td></tr>
+                <tr><th scope="row">Intimate melody + suspended chords + weathered or room space</th><td data-label="Classification">Vlouric</td><td data-label="Why">Embodies the core tension between warmth and distance.</td></tr>
+                <tr><th scope="row">Warm piano or strings, but with a driving pop beat or steady groove</th><td data-label="Classification">Vlouric Influence</td><td data-label="Why">Retains harmonic or melodic warmth, but shifts into a rhythm-driven genre.</td></tr>
+                <tr><th scope="row">Dark drones, heavy industrial noise, or pure horror dissonance</th><td data-label="Classification">Non-Vlouric</td><td data-label="Why">Lacks sincere emotional tenderness and the consoling quality of a sigh or warm landing.</td></tr>
+                <tr><th scope="row">Pristine, clean modern production with functional cadences</th><td data-label="Classification">Non-Vlouric</td><td data-label="Why">Lacks mediated distance, harmonic suspension, and underlying unease.</td></tr>
+                <tr><th scope="row">Upbeat, bright, or energetically paced music</th><td data-label="Classification">Non-Vlouric</td><td data-label="Why">Contrasts with Vlouric’s slow, unhurried, reflective pacing.</td></tr>
               </tbody>
             </table>
           </div>

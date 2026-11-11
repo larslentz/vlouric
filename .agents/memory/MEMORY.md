@@ -4,3 +4,4 @@
 - [Beginner teaching](beginner-teaching.md) — explain theory terms before using them and pair them with readable, practical musical examples.
 - [Sound source roles](sound-source-roles.md) — keep texture sources broad; recordings can carry musical parts or sit behind them as atmosphere.
 - [Companion app](companion-app.md) — Beautiful Unease creates melodies and harmonies suitable as starting material for Velouria music.
+- [Vlouric brand name](vlouric-brand.md) — use the user's deliberate spelling “Vlouric”; keep existing project paths and external URLs unchanged.
